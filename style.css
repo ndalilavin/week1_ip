@@ -12,6 +12,46 @@ body{
 .pink{
     color: #EC4067;
 }
-.blackish{
+.black{
     color: #252E35;
+}
+.section{
+    width: 100%;
+    position: relative;
+    height: fit-content;
+    background-color: white;
+}
+.navbar{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 35px;
+    padding-bottom: 10px;
+}
+.navbar .menulink{
+    text-decoration: none;
+    color: black;
+}
+.navbar .menuItems{
+    list-style: none;
+    margin: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 17px;
+}
+.navbar ul{
+    display: flex;
+}
+.logo{
+    font-size: 27px;
+    font-weight: bold;
+}
+.pinkButton{
+    background-color: #EC4067;
+    color: white;
+    border: none;
+    padding: 10px 20px 10px 20px;
+    font-size: 15px;
+    border-radius: 5px;
 }
