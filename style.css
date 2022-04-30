@@ -55,3 +55,63 @@ body{
     font-size: 15px;
     border-radius: 5px;
 }
+.partTwo{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 4em;
+}
+.rightSide{
+    width: 55%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.overall{
+    width: 100%;
+    height: fit-content;
+}
+.p1{
+    font-size: 20px;
+}
+.p2{
+    font-size: 42px;
+    font-weight: 100;
+}
+.twoButtons{
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+}
+.btn1{
+    background-color: #EC4067;
+    color: white;
+    width: 45%;
+    border: none;
+    padding: 10px 0;
+    font-size: 17px;
+    border-radius: 5px;
+}
+.btn2{
+    background-color: white;
+    color: #EC4067;
+    width: 45%;
+    border: solid #EC4067 1px;
+    padding: 10px 0;
+    font-size: 17px;
+}
+.leftSide{
+    width: 40%;
+    height: 400px;
+}
+.p3{
+    width: 75%;
+    margin: 25px 0;
+    align-items: center;
+    font-size: 18px;
+}
+.leftSide img{
+    width: 100%;
+    height: 100%;
+}
